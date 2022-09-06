@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<Ligacao>
-    (options => options.UseSqlServer("Server=tcp:sqlserver-rm89321.database.windows.net,1433;Initial Catalog=Cadastros_Pets;Persist Security Info=False;User ID=admsql;Password=devops@fiap21;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"));
+    (options => options.UseSqlServer("Server=tcp:sqlserver-rm89321.database.windows.net,1433;Initial Catalog=cadastropet;Persist Security Info=False;User ID=admsql;Password=devops@fiap21;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"));
 
 var app = builder.Build();
 
