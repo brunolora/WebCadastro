@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'rg-cadastropet'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DD6ADA02D88841AFBA88FB2113F2A682 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E02479C67D3B4FA4A31100323CF4B5DC }}
           package: .
